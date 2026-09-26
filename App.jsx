@@ -10,13 +10,24 @@
 
 // export default App;
 
-import LiveSearch from "./component/LiveSearch.jsx";
-// import UserList from "./UserList.jsx";
+// import LiveSearch from "./component/LiveSearch.jsx";
+// // import UserList from "./UserList.jsx";
+
+// function App(){
+//   return (
+//     <div>
+//       <LiveSearch/>
+//     </div>
+//   )
+// }
+// export default App;
+
+import WeatherDashboard from "./WeatherDashborad";
 
 function App(){
   return (
     <div>
-      <LiveSearch/>
+      <WeatherDashboard/>
     </div>
   )
 }
