@@ -10,12 +10,13 @@
 
 // export default App;
 
-import UserList from "./UserList.jsx";
+import LiveSearch from "./component/LiveSearch.jsx";
+// import UserList from "./UserList.jsx";
 
 function App(){
   return (
     <div>
-      <UserList/>
+      <LiveSearch/>
     </div>
   )
 }
